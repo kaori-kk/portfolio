@@ -27,12 +27,24 @@ body {
   padding-top: 5px;
 }
 
+.nav-bar {
+  background-color: #061849;
+  display: flex;
+      justify-content: flex-end;
+}
+
+
+.nav-bar i {
+  color: white;
+  font-size: 30px;
+}
+
 
 @media screen and (min-width:1024px){
 
  .name {
   display: flex;
-  top: 50%;
+  top: 35%;
   left: 55%;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
@@ -47,12 +59,19 @@ body {
   height: 22%;
   }
 
+  .nav-bar i {
+    margin-right: 30px;
+    padding: 20px;
+    font-size: 30px;
+
+  }
+
 }
 
 @media screen and (min-width:768px) and (max-width:1023px){
    .name {
     top: 50%;
-    left: 50%;
+    left: 48%;
     -ms-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
@@ -60,15 +79,22 @@ body {
     padding:0;
   }
 
-   .name img {
-      position: absolute;
-      top: -65%;
-      left: 35%;
-      width: 30%;
-    }
+  .name img {
+    position: absolute;
+    top: -65%;
+    left: 35%;
+    width: 30%;
+  }
 
   .name h1 {
     font-size: 30px;
+  }
+
+  .nav-bar i {
+    margin-right: 10px;
+    padding: 20px;
+    font-size: 20px;
+    justify-content: flex-end;
   }
 }
 
@@ -77,18 +103,35 @@ body {
 
   .name {
     width: 100%;
-    top: 50%;
+    top: 45%;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
   }
-   .name img {
+
+  .name img {
       width: 30%;
       display: flex;
       margin: auto;
-    }
+  }
+
   .name h1 {
     font-size: 20px;
   }
+
+  .nav-bar {
+    justify-content: space-evenly !important;
+  }
+
+  .nav-bar i {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
 }
+
+
+
+
+
