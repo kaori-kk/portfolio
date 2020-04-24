@@ -30,13 +30,35 @@ body {
 .nav-bar {
   background-color: #061849;
   display: flex;
-      justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 
 .nav-bar i {
   color: white;
   font-size: 30px;
+}
+
+.nav-bar a {
+   text-decoration: none;
+}
+
+
+/* 通常時はホバー時の文字を非表示にする */
+a .hover{
+  display: none;
+
+}
+
+/* ホバー時は通常時の文字を非表示にする */
+a:hover .normal{
+  display: none;
+}
+
+/* ホバー時に、ホバー時の文字を表示する */
+a:hover .hover{
+  display: inline;
+  color: white;
 }
 
 
@@ -63,7 +85,15 @@ body {
     margin-right: 30px;
     padding: 20px;
     font-size: 30px;
+  }
 
+  a .hover{
+    margin-right: 30px;
+    padding: 30px;
+  }
+
+  .contact {
+    margin-right: 30px;
   }
 
 }
@@ -95,6 +125,16 @@ body {
     padding: 20px;
     font-size: 20px;
     justify-content: flex-end;
+  }
+
+  a .hover{
+    margin-right: 10px;
+    margin-top: 0;
+    padding: 20px;
+  }
+
+  .contact {
+    margin-right: 30px;
   }
 }
 
@@ -130,8 +170,4 @@ body {
   }
 
 }
-
-
-
-
 
