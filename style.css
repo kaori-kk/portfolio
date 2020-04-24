@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #0E1C63;
 }
 
 #background-img {
@@ -12,6 +13,24 @@ body {
 
 .name {
   position: absolute;
+}
+
+
+.name h1 {
+  color: white;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.secondtext {
+  border-top: 1px solid white;
+  padding-top: 5px;
+}
+
+
+@media screen and (min-width:1024px){
+
+ .name {
   display: flex;
   top: 50%;
   left: 55%;
@@ -22,19 +41,54 @@ body {
   padding:0;
 }
 
-.name h1 {
-  color: white;
-  text-align: center;
-  margin: 5px 0;
-}
-
-.name p {
-  color: white;
-  margin: 0;
-}
-
-.name img {
-  padding-left: 15px;
+ .name img {
+  padding-right: 15px;
   width: 22%;
   height: 22%;
+  }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+   .name {
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+  }
+
+   .name img {
+      position: absolute;
+      top: -65%;
+      left: 35%;
+      width: 30%;
+    }
+
+  .name h1 {
+    font-size: 30px;
+  }
+}
+
+
+@media screen and (max-width:767px){
+
+  .name {
+    width: 100%;
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+   .name img {
+      width: 30%;
+      display: flex;
+      margin: auto;
+    }
+  .name h1 {
+    font-size: 20px;
+  }
 }
