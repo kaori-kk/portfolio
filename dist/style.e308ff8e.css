@@ -31,6 +31,7 @@ body {
 
 .name h2:hover{
   transform: translate(0px,10px);
+  cursor: pointer;
 }
 
 .name i{
@@ -126,6 +127,7 @@ a:hover .hover{
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
   border-bottom: solid 3px #c58668;
   font-family: 'Baloo Tammudu 2', cursive;
+  cursor: pointer;
 }
 
 #contact-btn:active {
