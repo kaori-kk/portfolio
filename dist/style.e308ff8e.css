@@ -24,6 +24,19 @@ body {
   margin: 10px 0;
 }
 
+.name h2{
+  margin-top: 70px;
+  color: white;
+}
+
+.name h2:hover{
+  transform: translate(0px,10px);
+}
+
+.name i{
+  padding-left: 5px;
+}
+
 .secondtext {
   border-top: 1px solid white;
   padding-top: 5px;
@@ -137,6 +150,12 @@ a:hover .hover{
   padding:0;
 }
 
+.name h2{
+  margin-top: 70px;
+  color: white;
+  margin-right: 30px;
+}
+
  .name img {
   padding-right: 15px;
   width: 22%;
@@ -170,7 +189,7 @@ a:hover .hover{
 @media screen and (min-width:768px) and (max-width:1023px){
    .name {
     top: 50%;
-    left: 48%;
+    left: 50%;
     -ms-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
@@ -180,13 +199,18 @@ a:hover .hover{
 
   .name img {
     position: absolute;
-    top: -65%;
+    top: -45%;
     left: 35%;
     width: 30%;
   }
 
   .name h1 {
     font-size: 30px;
+  }
+
+  .name h2{
+    margin-top: 70px;
+    text-align: center;
   }
 
   .nav-bar i {
@@ -234,6 +258,12 @@ a:hover .hover{
   .name h1 {
     font-size: 20px;
   }
+
+  .name h2{
+    margin-top: 70px;
+    text-align: center;
+  }
+
 
   .nav-bar {
     justify-content: space-evenly !important;
