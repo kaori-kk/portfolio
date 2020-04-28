@@ -70,26 +70,29 @@ a:hover .hover{
 /* Contact form */
 
 #contact-form {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  width: 55vw;
   margin: 0px auto;
-  padding: 20px 25px;
+  margin-bottom: 50px !important;
   border-radius: 5px;
   background-color: white;
-  justify-content: space-around;
-  align-items: center;
+  text-align: center;
   font-family: 'Baloo Tammudu 2', cursive;
 }
 
+.form-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #mail-img {
-  width: 150px;
-  height: 150px;
+  margin-left: 15px;
+  width: 50px;
+  height: 50px;
 }
 
 .form-input {
   padding: 10px;
-  width:100%;
+  width: 80%;
 }
 
 .form h2 {
@@ -98,7 +101,7 @@ a:hover .hover{
 }
 
 #contact-btn {
-  width: 100%;
+  width: 60%;
   display: inline-block;
   font-size: 20px;
   text-decoration: none;
@@ -155,6 +158,11 @@ a:hover .hover{
     margin-right: 30px;
   }
 
+  #contact-form {
+    width: 55vw;
+    padding: 20px 25px;
+  }
+
 }
 
 /* MD screen */
@@ -197,6 +205,11 @@ a:hover .hover{
   .contact {
     margin-right: 30px;
   }
+
+  #contact-form {
+    width: 60vw;
+    padding: 20px 25px;
+  }
 }
 
 /* SM screen */
@@ -229,6 +242,12 @@ a:hover .hover{
   .nav-bar i {
     font-size: 20px;
     margin-top: 15px;
+  }
+
+  #contact-form {
+    margin-top: 500px;
+    width: 90%;
+    padding: 10px 0;
   }
 }
 

@@ -44,31 +44,30 @@
     </div>
 
     <div id="contact-form">
-      <img src="/images/mail-man.png" alt="mail-man" id="mail-img">
+      <div class="form-heading">
+        <h2>Contact Me</h2>
+        <img src="/images/mail-man.png" alt="mail-man" id="mail-img">
+      </div>
       <div class="form">
-      <form
-        action="https://formspree.io/xleprnlo"
-        method="POST"
-      >
-      <form>
-         <label>
-          <h2>Name</h2>
-          <input type="text" name="name" class="form-input">
-        </label>
-      </form>
-      <form>
-        <label>
-          <h2>Email</h2>
-          <input type="text" name="_replyto" class="form-input">
-        </label>
-      </form>
-      <form>
-        <label>
-          <h2>Message</h2>
-          <textarea name="message" class="form-input"></textarea>
-        </label>
-      </form>
-
+        <form
+          action="https://formspree.io/xleprnlo"
+          method="POST"
+        >
+        <form>
+           <label>
+            <input type="text" name="name" placeholder="Name" class="form-input">
+          </label>
+        </form>
+        <form>
+          <label>
+            <input type="text" name="_replyto" placeholder="Email" class="form-input">
+          </label>
+        </form>
+        <form>
+          <label>
+            <textarea name="message" placeholder="Message" class="form-input"></textarea>
+          </label>
+        </form>
         <!-- your other form fields go here -->
 
         <button type="submit" id="contact-btn">Send</button>
