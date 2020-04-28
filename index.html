@@ -3,7 +3,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <script src="https://kit.fontawesome.com/c3607ad32c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Signika:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
 
   </head>
 
@@ -22,7 +25,7 @@
         <span class="normal"><i class="fas fa-file"></i></span>
         <span class="hover"><p>CV</p></span>
       </a>
-      <a href="#">
+      <a href="#contact-form">
         <span class="normal"><i class="fas fa-envelope"></i></span>
         <span class="hover"><p class="contact">Contact</p></span>
       </a>
@@ -37,6 +40,39 @@
           <h1>Kaori Kohama</h1>
           <h1 class="secondtext">Full Stack Developer</h1>
         </div>
+      </div>
+    </div>
+
+    <div id="contact-form">
+      <img src="/images/mail-man.png" alt="mail-man" id="mail-img">
+      <div class="form">
+      <form
+        action="https://formspree.io/xleprnlo"
+        method="POST"
+      >
+      <form>
+         <label>
+          <h2>Name</h2>
+          <input type="text" name="name" class="form-input">
+        </label>
+      </form>
+      <form>
+        <label>
+          <h2>Email</h2>
+          <input type="text" name="_replyto" class="form-input">
+        </label>
+      </form>
+      <form>
+        <label>
+          <h2>Message</h2>
+          <textarea name="message" class="form-input"></textarea>
+        </label>
+      </form>
+
+        <!-- your other form fields go here -->
+
+        <button type="submit" id="contact-btn">Send</button>
+      </form>
       </div>
     </div>
 
