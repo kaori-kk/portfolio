@@ -29,6 +29,10 @@ body {
   color: #fefcfb;
 }
 
+.name a {
+  text-decoration: none;
+}
+
 .name h2:hover{
   transform: translate(0px,10px);
   cursor: pointer;
@@ -86,19 +90,79 @@ a:hover .hover{
 
 /* Projects */
 
-.project-container {
+#project-container {
   background-color: #30343f;
-  height: 90vh;
+  height: 100vh;
   font-family: 'Abril Fatface', cursive;
   font-family: 'Signika', sans-serif;
 }
 
-.project-container h1 {
+#project-container h1 {
   color: white;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 80px;
 }
 
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 25px;
+  padding: 30px;
+}
+
+.project img {
+  width: 100%;
+  height: 35vh;
+}
+
+/* project btn　*/
+
+.btn {
+  text-align: center;
+}
+.site-btn {
+  margin-top: 10px;
+  margin-right: 5px;
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  border: 2px solid #006992;
+  font-size: 16px;
+  color: #fff;
+  background-color: #006992;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: .4s;
+}
+
+.site-btn:hover {
+  background-color: #fff;
+  border-color: #006992;
+  color: #006992;
+}
+
+.code-btn {
+  margin-top: 10px;
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  border: 2px solid #006992;
+  font-size: 16px;
+  color: #006992;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: .4s;
+}
+
+.code-btn:hover {
+  background-color: #006992;
+  border-color: #006992;
+  color: #FFF;
+}
 /* Contact form */
 
 .contact-msg {
