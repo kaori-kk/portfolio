@@ -19,14 +19,14 @@ body {
 
 
 .name h1 {
-  color: white;
+  color: #fefcfb;
   text-align: center;
   margin: 10px 0;
 }
 
 .name h2{
   margin-top: 70px;
-  color: white;
+  color: #fefcfb;
 }
 
 .name h2:hover{
@@ -51,6 +51,9 @@ body {
   justify-content: flex-end;
   font-family: 'Abril Fatface', cursive;
   font-family: 'Signika', sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 
@@ -81,7 +84,26 @@ a:hover .hover{
   color: white;
 }
 
+/* Projects */
+
+.project-container {
+  background-color: #30343f;
+  height: 90vh;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Signika', sans-serif;
+}
+
+.project-container h1 {
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+
 /* Contact form */
+
+.contact-msg {
+  height: 80vh;
+}
 
 #contact-form {
   margin: 0px auto;
@@ -176,6 +198,10 @@ a:hover .hover{
     padding: 30px;
   }
 
+  .contact-msg {
+    margin-top: 200px;
+  }
+
   .contact {
     margin-right: 30px;
   }
@@ -217,7 +243,7 @@ a:hover .hover{
   }
 
   .nav-bar i {
-    margin-right: 10px;
+    margin: 10px;
     padding: 20px;
     font-size: 20px;
     justify-content: flex-end;
@@ -227,6 +253,10 @@ a:hover .hover{
     margin-right: 10px;
     margin-top: 0;
     padding: 20px;
+  }
+
+  .contact-msg {
+    margin-top: 100px;
   }
 
   .contact {
@@ -243,9 +273,13 @@ a:hover .hover{
 
 @media screen and (max-width:767px){
 
+  .top {
+    height: 100vh;
+  }
+
   .name {
     width: 100%;
-    top: 45%;
+    top: 15%;
     bottom: 0;
     left: 0;
     right: 0;
@@ -270,6 +304,7 @@ a:hover .hover{
 
   .nav-bar {
     justify-content: space-evenly !important;
+    padding-bottom: 10px;
   }
 
   .nav-bar i {
@@ -278,7 +313,7 @@ a:hover .hover{
   }
 
   #contact-form {
-    margin-top: 500px;
+    margin-top: 100px;
     width: 90%;
     padding: 10px 0;
   }
