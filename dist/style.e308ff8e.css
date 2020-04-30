@@ -207,6 +207,7 @@ a:hover .hover{
 
 .contact-msg {
   height: 80vh;
+  font-family: 'Baloo Tammudu 2', cursive;
 }
 
 #contact-form {
@@ -215,7 +216,6 @@ a:hover .hover{
   border-radius: 5px;
   background-color: white;
   text-align: center;
-  font-family: 'Baloo Tammudu 2', cursive;
 }
 
 .form-heading {
@@ -263,6 +263,15 @@ a:hover .hover{
   border: none;
 }
 
+.contact-msg p {
+  text-align: center;
+  color: #fff;
+}
+
+
+.contact-msg a {
+  text-decoration: none;
+}
 
 /* LG screen */
 
