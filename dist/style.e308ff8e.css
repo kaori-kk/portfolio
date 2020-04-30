@@ -231,9 +231,10 @@ a:hover .hover{
 }
 
 .form-input {
+  margin: 10px 0;
   padding: 10px;
   width: 80%;
-    font-family: 'Baloo Tammudu 2', cursive;
+  font-family: 'Baloo Tammudu 2', cursive;
 }
 
 .form h2 {
