@@ -3,11 +3,6 @@ body {
   background-color: #0E1C63;
 }
 
-#background-img {
-
-
-}
-
 .top {
   font-family: 'Abril Fatface', cursive;
   font-family: 'Signika', sans-serif;
@@ -72,19 +67,15 @@ body {
    text-decoration: none;
 }
 
-
-/* 通常時はホバー時の文字を非表示にする */
 a .hover{
   display: none;
 
 }
 
-/* ホバー時は通常時の文字を非表示にする */
 a:hover .normal{
   display: none;
 }
 
-/* ホバー時に、ホバー時の文字を表示する */
 a:hover .hover{
   display: inline;
   color: white;
@@ -101,7 +92,6 @@ a:hover .hover{
 #project-container h1 {
   color: white;
   text-align: center;
-  padding-top: 80px;
 }
 
 .project {
@@ -130,6 +120,7 @@ a:hover .hover{
   display: inline-block;
   padding: 10px;
   border-radius: 3px;
+  width: 200;
 }
 
 .project span {
@@ -300,8 +291,9 @@ a:hover .hover{
     width: 22%;
     height: 22%;
   }
-  #project-container {
-    height: 100vh;
+
+  #project-container h1 {
+    padding-top: 80px;
   }
 
   .projects {
@@ -310,7 +302,7 @@ a:hover .hover{
 
   .project-info {
     top: 25%;
-    right: 25%;
+    right: 20%;
   }
 
   .projects {
@@ -373,13 +365,17 @@ a:hover .hover{
     text-align: center;
   }
 
+  #project-container h1 {
+    padding-top: 80px;
+  }
+
   .projects {
     grid-template-columns: 1fr 1fr;
   }
 
   .project-info {
     top: 25%;
-    right: 25%;
+    right: 20%;
   }
 
   .projects {
@@ -446,8 +442,14 @@ a:hover .hover{
     text-align: center;
   }
 
+  #project-container h1 {
+    padding-top: 50px;
+  }
+
   .projects {
     grid-template-columns: 1fr;
+    grid-gap: 30px;
+    padding: 80px;
   }
 
   .project-info {
@@ -455,11 +457,9 @@ a:hover .hover{
     right: 25%;
   }
 
-  .projects {
-    grid-gap: 30px;
-    padding: 80px;
+  .project {
+    margin-bottom: 40px;
   }
-
 
   .nav-bar {
     justify-content: space-evenly !important;
@@ -468,7 +468,7 @@ a:hover .hover{
 
   .nav-bar i {
     font-size: 20px;
-    margin-top: 15px;
+    margin: 16px 0;
   }
 
   #contact-form {
