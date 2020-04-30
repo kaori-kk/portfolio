@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"portfolio.e31bb0bc.js","sourceRoot":"..","sourcesContent":[]}
+{"version":3,"sources":["index.js"],"names":[],"mappings":"AAAA;AACA;AAEA;AACA;AACA","file":"portfolio.e31bb0bc.js","sourceRoot":"..","sourcesContent":["// const productImage = document.querySelector(\".product-img\");\n// const productInfo = document.querySelector(\".product-info\");\n\n// productImage.addEventListener(\"mouseover\", () => {\n//   console.log(\"click\");\n// })\n"]}
