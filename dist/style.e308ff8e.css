@@ -115,14 +115,23 @@ a:hover .hover{
 
 }
 
-.project-info {
+.project span {
+  color: #fff;
+  background-color: #bcb8b1;
+  display: inline-block;
+  padding: 5px;
+  margin: 10px 5px;
+  border-radius: 5px;
+}
+
+/*.project-info {
   color: #fff;
   opacity: 0;
   text-align: center;
 
-}
+}*/
 
-.project-info p {
+/*.project-info p {
   background-color: #f7b801;
   display: inline-block;
   padding: 10px;
@@ -156,7 +165,7 @@ a:hover .hover{
 
 .project-info:hover + .project img{
     opacity: 0.2;
-}
+}*/
 
 /* project btn　*/
 
@@ -317,6 +326,39 @@ a:hover .hover{
     padding: 30px;
   }
 
+  .project-info {
+  color: #fff;
+  opacity: 0;
+  text-align: center;
+  }
+
+  .project-info p {
+    background-color: #f7b801;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 3px;
+    width: 200;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 150px;
+    margin: auto;
+  }
+
+  .project img:hover {
+    opacity: 0.2;
+    transition: all 0.6s ease;
+  }
+
+  .project img:hover + .project-info{
+    display: block;
+    opacity: 1;
+  }
+
+  .project-info:hover + .project img{
+      opacity: 0.2;
+  }
+
   .nav-bar i {
     margin-right: 30px;
     padding: 20px;
@@ -390,6 +432,48 @@ a:hover .hover{
     padding: 50px;
   }
 
+  .project-info {
+    color: #fff;
+    opacity: 0;
+    text-align: center;
+  }
+
+  .project-info p {
+    background-color: #f7b801;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 3px;
+    width: 200;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 150px;
+    margin: auto;
+  }
+
+ /* .project span {
+    color: #fff;
+    background-color: #bcb8b1;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px 5px;
+    border-radius: 5px;
+  }*/
+
+  .project img:hover {
+    opacity: 0.2;
+    transition: all 0.6s ease;
+  }
+
+  .project img:hover + .project-info{
+    display: block;
+    opacity: 1;
+  }
+
+  .project-info:hover + .project img{
+      opacity: 0.2;
+  }
+
   .nav-bar i {
     margin: 10px;
     padding: 20px;
@@ -427,7 +511,7 @@ a:hover .hover{
 
   .name {
     width: 100%;
-    top: 15%;
+    top: 20%;
     bottom: 0;
     left: 0;
     right: 0;
@@ -456,7 +540,21 @@ a:hover .hover{
   .projects {
     grid-template-columns: 1fr;
     grid-gap: 30px;
-    padding: 80px;
+    padding: 20px;
+  }
+
+  .project-info {
+    color: #fff;
+    text-align: center;
+  }
+
+  .project-info p {
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 3px;
+    width: 250;
+    margin: auto;
   }
 
   .project {
