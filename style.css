@@ -67,24 +67,16 @@ body {
 .nav-bar i {
   color: white;
   font-size: 30px;
+  position:relative;
 }
 
 .nav-bar a {
    text-decoration: none;
 }
 
-a .hover{
-  display: none;
-
-}
-
-a:hover .normal{
-  display: none;
-}
-
-a:hover .hover{
-  display: inline;
-  color: white;
+.nav-bar i:hover {
+  opacity: 0.8;
+  bottom: 5px;
 }
 
 /* Projects */
